@@ -10,3 +10,6 @@ form div{
 textarea{
     resize: none;
 }
+body{
+    margin-left: 2%;
+}
