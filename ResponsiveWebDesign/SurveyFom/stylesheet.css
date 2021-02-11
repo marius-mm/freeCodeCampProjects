@@ -1,0 +1,12 @@
+#description{
+    font-size: 1px;
+}
+form div{
+    height: 50px;
+    background: rgb(87, 122, 121);
+    display: flex;
+    align-items: center
+}
+textarea{
+    resize: none;
+}

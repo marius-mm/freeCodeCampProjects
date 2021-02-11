@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="title">Umfrage zum Thema "Sitzen"</h1>
+    <div>
+        <p style="font-size: medium;" id="description">
+            In dieser Umfrage sollen Ihre Sizgewohnheiten abefragt werden.
+        </p>
+    </div>
+    <div>
+        <form id="survey-form" action="submit">
+            <div>
+                <label for="name" id="name-label">Name: </label>
+                <input type="text" name="name" id="name" placeholder="Firstname, Lastname" required>
+            </div>
+            <div>
+                <label for="email" id="email-label">Email: </label>
+                <input type="email" name="email" id="email" placeholder="Valid Email" required>
+            </div>
+            <div>
+                <label for="age" id="number-label">Age: </label>
+                <input type="number" name="age" id="number" placeholder="Your age" min="0" max="100">
+            </div>
+            <div>
+                <label for="job">Your Job</label>
+                <select name="job" id="dropdown">
+                    <option value="student">Student</option>
+                    <option value="nurse">Nurse</option>
+                    <option value="office">Office Job</option>
+                    <option value="outside">Working outside</option>
+                </select>
+            </div>
+            <div> <b>Sitting hours: </b>
+                <label for="0h">0h</label>
+                <input type="radio" name="sittingHours" id="0h" value="0">
+                <label for="1-3h">1-3h</label>
+                <input type="radio" name="sittingHours" id="1-3h" value="1-3">
+                <label for=">3h">>3h</label>
+                <input type="radio" name="sittingHours" id=">3h" value=">3">
+            </div>
+            <div> <b>Pain: </b>
+                <label for="backpain">Backpain</label>
+                <input type="checkbox" name="backpain" id="backpain" value="backpain">
+                <label for="headache">headache</label>
+                <input type="checkbox" name="headache" id="headache" value="headache">
+            </div>
+            <div> Additional Comments:
+                <textarea name="comments" id="comments" cols="30" rows="3"></textarea>
+            </div>
+            <div>
+                <button type="submit" id="submit">Submit your form</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
