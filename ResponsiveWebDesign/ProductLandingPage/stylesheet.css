@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+}
+
+@media (max-width: 70em) {
+    html {
+        background-color: blueviolet;
+    }
+}
