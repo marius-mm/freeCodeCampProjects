@@ -1,3 +1,5 @@
+Checkout the notebook.ipynb!
+
 ### Assignment
 
 # Demographic Data Analyzer
